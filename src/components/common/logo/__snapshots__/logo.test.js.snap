@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test logo should render correctly 1`] = `
+<h1
+  className="sc-bdVaJa kHzMix"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="this is a logo"
+      src="../../assets/images/youtube.png"
+    />
+  </a>
+</h1>
+`;

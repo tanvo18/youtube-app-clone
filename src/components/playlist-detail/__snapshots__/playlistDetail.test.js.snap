@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test playlistDetail should render correctly 1`] = `
+<div
+  className="sc-bdVaJa hBAhhW"
+>
+  <ul
+    className="playlist"
+  >
+    <div>
+      <li
+        className="playlist-video-item"
+      >
+        <a
+          className="video-link"
+          href="/watch/FLqvTE1Eqfg"
+          onClick={[Function]}
+        >
+          <div
+            className="thumbnail-wrap"
+          >
+            <img
+              alt=""
+              className="thumbnail-img"
+              src="https://i.ytimg.com/vi/YGpK6U56oHM/default.jpg"
+            />
+          </div>
+          <div
+            className="playlist-description-wrap"
+          >
+            <p
+              className="title"
+            >
+              Football
+            </p>
+            <p
+              className="channel-title"
+            >
+              Tan Vo
+            </p>
+          </div>
+        </a>
+      </li>
+    </div>
+  </ul>
+</div>
+`;

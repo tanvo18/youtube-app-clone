@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test input should render correctly 1`] = `
+<input
+  className="test-input sc-bdVaJa ktmTFK"
+  height="20px"
+  onKeyDown={[Function]}
+  placeholder="Write something"
+  type="text"
+  width="100px"
+/>
+`;

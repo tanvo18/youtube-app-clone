@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test videoComment should render correctly 1`] = `
+<li
+  className="sc-bdVaJa iuEGl"
+>
+  <div
+    className="avatar-wrap"
+  >
+    <img
+      alt="avatar"
+      src="https://yt3.ggpht.com/-6Kja_qUGQIU/AAAAAAAAAAI/AAAAAAAAAAA/rEUlDi7aSTI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+    />
+  </div>
+  <div
+    className="comment-wrap"
+  >
+    <p>
+      Vibha Upadhyay
+    </p>
+    <p
+      className="user-comment"
+    >
+      It is fun
+    </p>
+  </div>
+</li>
+`;

@@ -1,0 +1,11 @@
+kind: pipeline
+name: default
+
+steps:
+- name: unit-test
+  image: node:latest
+  commands:
+    - echo "this is testing"
+    - ls
+    - npm install
+    - npm test

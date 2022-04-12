@@ -1,0 +1,1146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test detail video should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DetailVideo
+    comments={
+        Array [
+            Object {
+              "snippet": Object {
+                "topLevelComment": Object {
+                  "snippet": Object {
+                    "authorChannelId": Object {
+                      "value": "UCl5T-ml4qO3Q1fHmWbAYSRw",
+                    },
+                    "authorChannelUrl": "http://www.youtube.com/channel/UCl5T-ml4qO3Q1fHmWbAYSRw",
+                    "authorDisplayName": "Camila Chaos",
+                    "authorProfileImageUrl": "https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                    "textDisplay": "consequences then beautiful. Jesus christ someone get me a valiam I'm quaking",
+                    "textOriginal": "consequences then beautiful. Jesus christ someone get me a valiam I'm quaking",
+                    "videoId": "Uk1hv6h7O1Y",
+                  },
+                },
+              },
+            },
+          ]
+    }
+    getComments={[Function]}
+    getSelectedVideo={[Function]}
+    isPosting={false}
+    isSignedIn={false}
+    match={
+        Object {
+            "params": Object {
+              "id": "Uk1hv6h7O1Y",
+            },
+          }
+    }
+    postComment={[Function]}
+    selectedVideo={
+        Object {
+            "snippet": Object {
+              "publishedAt": "Oct 15th 18",
+              "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+            },
+          }
+    }
+    selectedVideoStatistic={
+        Object {
+            "snippet": Object {
+              "channelTitle": "Funny channel",
+              "description": "Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+        COSMIC: https://Bazzi.lnk.to/COSMICAY
+        
+        Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+        
+        Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+        
+        Follow Bazzi
+        https://facebook.com/BazziWorldwide
+        https://instagram.com/bazzi
+        https://twitter.com/bazzi
+        https://soundcloud.com/bazziworldwide
+        http://bazziofficial.com
+        
+        The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more.",
+              "publishedAt": "Oct 15th 18",
+              "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+            },
+            "statistics": Object {
+              "commentCount": "12121",
+              "dislikeCount": "3K",
+              "favoriteCount": "0",
+              "likeCount": "193K",
+              "viewCount": "1M",
+            },
+          }
+    }
+    title=""
+    videoUrl="http://www.youtube.com/embed/Uk1hv6h7O1Y"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <iframe
+          allowFullScreen={true}
+          frameBorder="0"
+          height="580"
+          src="http://www.youtube.com/embed/Uk1hv6h7O1Y"
+          title="Bazzi feat. Camila Cabello - Beautiful (Official Video)"
+          width="100%"
+/>,
+        <div>
+          <p
+                    className="detail-title"
+          >
+                    Bazzi feat. Camila Cabello - Beautiful (Official Video)
+          </p>
+          <div
+                    className="detail-description"
+          >
+                    <p
+                              className="detail-view"
+                    >
+                              1M
+                               views
+                    </p>
+                    <div>
+                              <Button
+                                        btnBackground="transparent"
+                                        btnClass="btn btn-rate"
+                                        btnFontSize="20"
+                                        text={
+                                                  <i
+                                                            className="fa fa-thumbs-up"
+                                                  />
+                                        }
+                                        textColor="#8f8f8f"
+                              />
+                              <span>
+                                        193K
+                              </span>
+                              <Button
+                                        btnBackground="transparent"
+                                        btnClass="btn btn-rate"
+                                        btnFontSize="20"
+                                        text={
+                                                  <i
+                                                            className="fa fa-thumbs-down"
+                                                  />
+                                        }
+                                        textColor="#8f8f8f"
+                              />
+                              <span>
+                                        3K
+                              </span>
+                    </div>
+          </div>
+          <ChannelDescription
+                    channelTitle="Funny channel"
+                    description="Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+          COSMIC: https://Bazzi.lnk.to/COSMICAY
+          
+          Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+          
+          Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+          
+          Follow Bazzi
+          https://facebook.com/BazziWorldwide
+          https://instagram.com/bazzi
+          https://twitter.com/bazzi
+          https://soundcloud.com/bazziworldwide
+          http://bazziofficial.com
+          
+          The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more."
+                    publishedAt="Published on Oct 15th 18"
+          />
+          <div>
+                    <Connect(PoliciedComponent)
+                              isPosting={false}
+                              isSignedIn={false}
+                              postComment={[Function]}
+                              selectedVideo={
+                                        Object {
+                                                  "snippet": Object {
+                                                    "publishedAt": "Oct 15th 18",
+                                                    "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                  },
+                                                }
+                              }
+                    />
+                    <ul
+                              className="list-comment"
+                    >
+                              <VideoComment
+                                        avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                        userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                        username="Camila Chaos"
+                              />
+                    </ul>
+          </div>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "allowFullScreen": true,
+          "frameBorder": "0",
+          "height": "580",
+          "src": "http://www.youtube.com/embed/Uk1hv6h7O1Y",
+          "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+          "width": "100%",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "iframe",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="detail-title"
+>
+              Bazzi feat. Camila Cabello - Beautiful (Official Video)
+</p>,
+            <div
+              className="detail-description"
+>
+              <p
+                            className="detail-view"
+              >
+                            1M
+                             views
+              </p>
+              <div>
+                            <Button
+                                          btnBackground="transparent"
+                                          btnClass="btn btn-rate"
+                                          btnFontSize="20"
+                                          text={
+                                                        <i
+                                                                      className="fa fa-thumbs-up"
+                                                        />
+                                          }
+                                          textColor="#8f8f8f"
+                            />
+                            <span>
+                                          193K
+                            </span>
+                            <Button
+                                          btnBackground="transparent"
+                                          btnClass="btn btn-rate"
+                                          btnFontSize="20"
+                                          text={
+                                                        <i
+                                                                      className="fa fa-thumbs-down"
+                                                        />
+                                          }
+                                          textColor="#8f8f8f"
+                            />
+                            <span>
+                                          3K
+                            </span>
+              </div>
+</div>,
+            <ChannelDescription
+              channelTitle="Funny channel"
+              description="Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+COSMIC: https://Bazzi.lnk.to/COSMICAY
+
+Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+
+Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+
+Follow Bazzi
+https://facebook.com/BazziWorldwide
+https://instagram.com/bazzi
+https://twitter.com/bazzi
+https://soundcloud.com/bazziworldwide
+http://bazziofficial.com
+
+The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more."
+              publishedAt="Published on Oct 15th 18"
+/>,
+            <div>
+              <Connect(PoliciedComponent)
+                            isPosting={false}
+                            isSignedIn={false}
+                            postComment={[Function]}
+                            selectedVideo={
+                                          Object {
+                                                        "snippet": Object {
+                                                          "publishedAt": "Oct 15th 18",
+                                                          "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                        },
+                                                      }
+                            }
+              />
+              <ul
+                            className="list-comment"
+              >
+                            <VideoComment
+                                          avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                          userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                          username="Camila Chaos"
+                            />
+              </ul>
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+              "className": "detail-title",
+            },
+            "ref": null,
+            "rendered": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="detail-view"
+>
+                  1M
+                   views
+</p>,
+                <div>
+                  <Button
+                                    btnBackground="transparent"
+                                    btnClass="btn btn-rate"
+                                    btnFontSize="20"
+                                    text={
+                                                      <i
+                                                                        className="fa fa-thumbs-up"
+                                                      />
+                                    }
+                                    textColor="#8f8f8f"
+                  />
+                  <span>
+                                    193K
+                  </span>
+                  <Button
+                                    btnBackground="transparent"
+                                    btnClass="btn btn-rate"
+                                    btnFontSize="20"
+                                    text={
+                                                      <i
+                                                                        className="fa fa-thumbs-down"
+                                                      />
+                                    }
+                                    textColor="#8f8f8f"
+                  />
+                  <span>
+                                    3K
+                  </span>
+</div>,
+              ],
+              "className": "detail-description",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "1M",
+                    " views",
+                  ],
+                  "className": "detail-view",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "1M",
+                  " views",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Button
+                      btnBackground="transparent"
+                      btnClass="btn btn-rate"
+                      btnFontSize="20"
+                      text={
+                                            <i
+                                                                  className="fa fa-thumbs-up"
+                                            />
+                      }
+                      textColor="#8f8f8f"
+/>,
+                    <span>
+                      193K
+</span>,
+                    <Button
+                      btnBackground="transparent"
+                      btnClass="btn btn-rate"
+                      btnFontSize="20"
+                      text={
+                                            <i
+                                                                  className="fa fa-thumbs-down"
+                                            />
+                      }
+                      textColor="#8f8f8f"
+/>,
+                    <span>
+                      3K
+</span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "btnBackground": "transparent",
+                      "btnClass": "btn btn-rate",
+                      "btnFontSize": "20",
+                      "text": <i
+                        className="fa fa-thumbs-up"
+/>,
+                      "textColor": "#8f8f8f",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "193K",
+                    },
+                    "ref": null,
+                    "rendered": "193K",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "btnBackground": "transparent",
+                      "btnClass": "btn btn-rate",
+                      "btnFontSize": "20",
+                      "text": <i
+                        className="fa fa-thumbs-down"
+/>,
+                      "textColor": "#8f8f8f",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "3K",
+                    },
+                    "ref": null,
+                    "rendered": "3K",
+                    "type": "span",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "channelTitle": "Funny channel",
+              "description": "Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+COSMIC: https://Bazzi.lnk.to/COSMICAY
+
+Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+
+Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+
+Follow Bazzi
+https://facebook.com/BazziWorldwide
+https://instagram.com/bazzi
+https://twitter.com/bazzi
+https://soundcloud.com/bazziworldwide
+http://bazziofficial.com
+
+The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more.",
+              "publishedAt": "Published on Oct 15th 18",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Connect(PoliciedComponent)
+                  isPosting={false}
+                  isSignedIn={false}
+                  postComment={[Function]}
+                  selectedVideo={
+                                    Object {
+                                                      "snippet": Object {
+                                                        "publishedAt": "Oct 15th 18",
+                                                        "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                      },
+                                                    }
+                  }
+/>,
+                <ul
+                  className="list-comment"
+>
+                  <VideoComment
+                                    avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                    userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                    username="Camila Chaos"
+                  />
+</ul>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "isPosting": false,
+                  "isSignedIn": false,
+                  "postComment": [Function],
+                  "selectedVideo": Object {
+                    "snippet": Object {
+                      "publishedAt": "Oct 15th 18",
+                      "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                    },
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <VideoComment
+                      avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                      userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                      username="Camila Chaos"
+/>,
+                  ],
+                  "className": "list-comment",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "avatar": "https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                      "userComment": "consequences then beautiful. Jesus christ someone get me a valiam I'm quaking",
+                      "username": "Camila Chaos",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <iframe
+            allowFullScreen={true}
+            frameBorder="0"
+            height="580"
+            src="http://www.youtube.com/embed/Uk1hv6h7O1Y"
+            title="Bazzi feat. Camila Cabello - Beautiful (Official Video)"
+            width="100%"
+/>,
+          <div>
+            <p
+                        className="detail-title"
+            >
+                        Bazzi feat. Camila Cabello - Beautiful (Official Video)
+            </p>
+            <div
+                        className="detail-description"
+            >
+                        <p
+                                    className="detail-view"
+                        >
+                                    1M
+                                     views
+                        </p>
+                        <div>
+                                    <Button
+                                                btnBackground="transparent"
+                                                btnClass="btn btn-rate"
+                                                btnFontSize="20"
+                                                text={
+                                                            <i
+                                                                        className="fa fa-thumbs-up"
+                                                            />
+                                                }
+                                                textColor="#8f8f8f"
+                                    />
+                                    <span>
+                                                193K
+                                    </span>
+                                    <Button
+                                                btnBackground="transparent"
+                                                btnClass="btn btn-rate"
+                                                btnFontSize="20"
+                                                text={
+                                                            <i
+                                                                        className="fa fa-thumbs-down"
+                                                            />
+                                                }
+                                                textColor="#8f8f8f"
+                                    />
+                                    <span>
+                                                3K
+                                    </span>
+                        </div>
+            </div>
+            <ChannelDescription
+                        channelTitle="Funny channel"
+                        description="Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+            COSMIC: https://Bazzi.lnk.to/COSMICAY
+            
+            Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+            
+            Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+            
+            Follow Bazzi
+            https://facebook.com/BazziWorldwide
+            https://instagram.com/bazzi
+            https://twitter.com/bazzi
+            https://soundcloud.com/bazziworldwide
+            http://bazziofficial.com
+            
+            The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more."
+                        publishedAt="Published on Oct 15th 18"
+            />
+            <div>
+                        <Connect(PoliciedComponent)
+                                    isPosting={false}
+                                    isSignedIn={false}
+                                    postComment={[Function]}
+                                    selectedVideo={
+                                                Object {
+                                                            "snippet": Object {
+                                                              "publishedAt": "Oct 15th 18",
+                                                              "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                            },
+                                                          }
+                                    }
+                        />
+                        <ul
+                                    className="list-comment"
+                        >
+                                    <VideoComment
+                                                avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                                userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                                username="Camila Chaos"
+                                    />
+                        </ul>
+            </div>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "allowFullScreen": true,
+            "frameBorder": "0",
+            "height": "580",
+            "src": "http://www.youtube.com/embed/Uk1hv6h7O1Y",
+            "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+            "width": "100%",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "iframe",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="detail-title"
+>
+                Bazzi feat. Camila Cabello - Beautiful (Official Video)
+</p>,
+              <div
+                className="detail-description"
+>
+                <p
+                                className="detail-view"
+                >
+                                1M
+                                 views
+                </p>
+                <div>
+                                <Button
+                                                btnBackground="transparent"
+                                                btnClass="btn btn-rate"
+                                                btnFontSize="20"
+                                                text={
+                                                                <i
+                                                                                className="fa fa-thumbs-up"
+                                                                />
+                                                }
+                                                textColor="#8f8f8f"
+                                />
+                                <span>
+                                                193K
+                                </span>
+                                <Button
+                                                btnBackground="transparent"
+                                                btnClass="btn btn-rate"
+                                                btnFontSize="20"
+                                                text={
+                                                                <i
+                                                                                className="fa fa-thumbs-down"
+                                                                />
+                                                }
+                                                textColor="#8f8f8f"
+                                />
+                                <span>
+                                                3K
+                                </span>
+                </div>
+</div>,
+              <ChannelDescription
+                channelTitle="Funny channel"
+                description="Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+COSMIC: https://Bazzi.lnk.to/COSMICAY
+
+Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+
+Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+
+Follow Bazzi
+https://facebook.com/BazziWorldwide
+https://instagram.com/bazzi
+https://twitter.com/bazzi
+https://soundcloud.com/bazziworldwide
+http://bazziofficial.com
+
+The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more."
+                publishedAt="Published on Oct 15th 18"
+/>,
+              <div>
+                <Connect(PoliciedComponent)
+                                isPosting={false}
+                                isSignedIn={false}
+                                postComment={[Function]}
+                                selectedVideo={
+                                                Object {
+                                                                "snippet": Object {
+                                                                  "publishedAt": "Oct 15th 18",
+                                                                  "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                                },
+                                                              }
+                                }
+                />
+                <ul
+                                className="list-comment"
+                >
+                                <VideoComment
+                                                avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                                userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                                username="Camila Chaos"
+                                />
+                </ul>
+</div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                "className": "detail-title",
+              },
+              "ref": null,
+              "rendered": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="detail-view"
+>
+                    1M
+                     views
+</p>,
+                  <div>
+                    <Button
+                                        btnBackground="transparent"
+                                        btnClass="btn btn-rate"
+                                        btnFontSize="20"
+                                        text={
+                                                            <i
+                                                                                className="fa fa-thumbs-up"
+                                                            />
+                                        }
+                                        textColor="#8f8f8f"
+                    />
+                    <span>
+                                        193K
+                    </span>
+                    <Button
+                                        btnBackground="transparent"
+                                        btnClass="btn btn-rate"
+                                        btnFontSize="20"
+                                        text={
+                                                            <i
+                                                                                className="fa fa-thumbs-down"
+                                                            />
+                                        }
+                                        textColor="#8f8f8f"
+                    />
+                    <span>
+                                        3K
+                    </span>
+</div>,
+                ],
+                "className": "detail-description",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "1M",
+                      " views",
+                    ],
+                    "className": "detail-view",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "1M",
+                    " views",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Button
+                        btnBackground="transparent"
+                        btnClass="btn btn-rate"
+                        btnFontSize="20"
+                        text={
+                                                <i
+                                                                        className="fa fa-thumbs-up"
+                                                />
+                        }
+                        textColor="#8f8f8f"
+/>,
+                      <span>
+                        193K
+</span>,
+                      <Button
+                        btnBackground="transparent"
+                        btnClass="btn btn-rate"
+                        btnFontSize="20"
+                        text={
+                                                <i
+                                                                        className="fa fa-thumbs-down"
+                                                />
+                        }
+                        textColor="#8f8f8f"
+/>,
+                      <span>
+                        3K
+</span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "btnBackground": "transparent",
+                        "btnClass": "btn btn-rate",
+                        "btnFontSize": "20",
+                        "text": <i
+                          className="fa fa-thumbs-up"
+/>,
+                        "textColor": "#8f8f8f",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "193K",
+                      },
+                      "ref": null,
+                      "rendered": "193K",
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "btnBackground": "transparent",
+                        "btnClass": "btn btn-rate",
+                        "btnFontSize": "20",
+                        "text": <i
+                          className="fa fa-thumbs-down"
+/>,
+                        "textColor": "#8f8f8f",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "3K",
+                      },
+                      "ref": null,
+                      "rendered": "3K",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "channelTitle": "Funny channel",
+                "description": "Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+COSMIC: https://Bazzi.lnk.to/COSMICAY
+
+Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+
+Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+
+Follow Bazzi
+https://facebook.com/BazziWorldwide
+https://instagram.com/bazzi
+https://twitter.com/bazzi
+https://soundcloud.com/bazziworldwide
+http://bazziofficial.com
+
+The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more.",
+                "publishedAt": "Published on Oct 15th 18",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Connect(PoliciedComponent)
+                    isPosting={false}
+                    isSignedIn={false}
+                    postComment={[Function]}
+                    selectedVideo={
+                                        Object {
+                                                            "snippet": Object {
+                                                              "publishedAt": "Oct 15th 18",
+                                                              "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                                                            },
+                                                          }
+                    }
+/>,
+                  <ul
+                    className="list-comment"
+>
+                    <VideoComment
+                                        avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                        userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                                        username="Camila Chaos"
+                    />
+</ul>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "isPosting": false,
+                    "isSignedIn": false,
+                    "postComment": [Function],
+                    "selectedVideo": Object {
+                      "snippet": Object {
+                        "publishedAt": "Oct 15th 18",
+                        "title": "Bazzi feat. Camila Cabello - Beautiful (Official Video)",
+                      },
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <VideoComment
+                        avatar="https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                        userComment="consequences then beautiful. Jesus christ someone get me a valiam I'm quaking"
+                        username="Camila Chaos"
+/>,
+                    ],
+                    "className": "list-comment",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "class",
+                      "props": Object {
+                        "avatar": "https://yt3.ggpht.com/-vJblBetYylw/AAAAAAAAAAI/AAAAAAAAAAA/MrPbSyMdMvI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                        "userComment": "consequences then beautiful. Jesus christ someone get me a valiam I'm quaking",
+                        "username": "Camila Chaos",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "ul",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

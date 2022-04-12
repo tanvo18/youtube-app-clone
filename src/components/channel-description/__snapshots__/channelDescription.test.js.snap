@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test channelDescription should render correctly 1`] = `
+<div
+  className="sc-bdVaJa hooZEu"
+>
+  <p>
+    Funny channel
+  </p>
+  <p>
+    Oct 15th 18
+  </p>
+  <p>
+    Download / stream BEAUTIFUL: https://Bazzi.lnk.to/BeautifulxCamilaAY 
+    COSMIC: https://Bazzi.lnk.to/COSMICAY
+    
+    Directed by Jason Koenig https://www.instagram.com/jkoephoto/ 
+    
+    Subscribe for more official content from Bazzi: https://Bazzi.lnk.to/Subscribe
+    
+    Follow Bazzi
+    https://facebook.com/BazziWorldwide
+    https://instagram.com/bazzi
+    https://twitter.com/bazzi
+    https://soundcloud.com/bazziworldwide
+    http://bazziofficial.com
+    
+    The official YouTube channel of Atlantic Records artist Bazzi. Subscribe for the latest music videos, performances, and more.
+  </p>
+</div>
+`;

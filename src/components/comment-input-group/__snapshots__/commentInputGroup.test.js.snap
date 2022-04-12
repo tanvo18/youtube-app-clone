@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test CommentInputGroup should render correctly 1`] = `
+<div>
+  <div
+    className="comment-wrap"
+  >
+    <input
+      className="comment-box"
+      placeholder="Add a public comment..."
+      type="text"
+    />
+    <div
+      className="btn-comment-wrap"
+    >
+      <button
+        className="btn btn-cancel sc-bwzfXH bOPOHs"
+        fontSize="14"
+        onClick={[Function]}
+      >
+        Cancel
+      </button>
+      <button
+        className="btn btn-submit sc-bwzfXH cAcMCP"
+        fontSize="14"
+        onClick={[Function]}
+      >
+        Comment
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test header should render correctly 1`] = `
+<div
+  className="container-fluid sc-bxivhb jKKnLa"
+>
+  <h1
+    className="logo sc-bdVaJa ihUdBI"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt=""
+        src="youtube.png"
+      />
+    </a>
+  </h1>
+  <div
+    className="search-wrap"
+  >
+    <input
+      className="sc-bwzfXH kkcLHG"
+      height="2.375rem"
+      onKeyDown={[Function]}
+      placeholder="Search"
+      type="text"
+      width="100%"
+    />
+    <div
+      className="input-group-append"
+    >
+      <a
+        href="/search"
+        onClick={[Function]}
+      >
+        <button
+          className="btn sc-htpNat RZbAn"
+          fontSize="16"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-search"
+          />
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    className="login-btn-wrap"
+  >
+    <div>
+      <button
+        className="btn btn-login sc-htpNat kJLzS"
+        fontSize="16"
+        onClick={[Function]}
+      >
+        SIGN IN
+      </button>
+    </div>
+  </div>
+</div>
+`;
